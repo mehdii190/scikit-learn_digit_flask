@@ -46,7 +46,7 @@ To run model training run:
 
 
 
-
+python model.py
 
 
 
