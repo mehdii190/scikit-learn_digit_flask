@@ -53,14 +53,27 @@ python model.py
 
 
 
+This can take few hours to complete. To speed up you can change PCA_N_CHOICES and KNN_N_CHOICES.
+
+After training model.pkl file will be created. Then it can be used for user input recognition.
+
+
+### Custom model
+
+Alternatively you can use your custom model with web app. Every scikit-learn estimator/pipeline that handles MNIST input (784-d vector) should work. Fit your model and save it to file using scikit function:
+
+
+import joblib
+
+joblib.dump(estimator, 'model.pkl')
 
 
 
 
+Then copy model.pkl to project folder and run web app.
 
 
-
-
+good luck :)
 
 
 
