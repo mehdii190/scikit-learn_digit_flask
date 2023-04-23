@@ -5,10 +5,15 @@ scikit-learn dataset mnist digit with flask
 ### setup 
 
 Download repository
+
 Install libs from requirements.txt (may require installing non-python dependencies)
+
 Train model or provide own (more info below)
+
 Run app.py
+
 Open your browser and navigate to http://127.0.0.1:5000/
+
 
 
 
